@@ -1,0 +1,7 @@
+{
+  "appId": "com.biblefoss.app",
+  "appName": "Bible FOSS",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www"
+}
