@@ -1,16 +1,150 @@
 {
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
+
+  "files.autoSave": "onFocusChange",
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.restoreUndoStack": true,
+  "files.saveConflictResolution": "askUser",
+  "files.enableTrash": true,
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": false,
+  "files.watcherExclude": {
+      "**/node_modules/**": true,
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.idea": true,
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.activityBar.iconClickBehavior": "toggle",
+  "workbench.colorTheme": "Darcula",
+  "workbench.tree.indent": 15,
+
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+  "explorer.decorations.badges": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.decorations.colors": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.incrementalNaming": "smart",
+  "explorer.sortOrder": "default",
+
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.comments.insertSpace": true,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.fontFamily": "'Jetbrains Mono', 'Fira Code', 'Consolas', 'Courier New', 'monospace'",
+  "editor.fontLigatures": false,
+  "editor.folding": true,
+  "editor.showFoldingControls": "always",
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.preview": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "all",
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": [
     "source.fixAll.eslint"
   ],
-  "eslint.validate": [
+
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.console.closeOnEnd": false,
+  "debug.inlineValues": "off",
+  "debug.toolBarLocation": "docked",
+  "debug.console.wordWrap": true,
+  "debug.showInStatusBar": "always",
+  "debug.openDebug": "openOnDebugBreak",
+
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": false,
+  "eslint.lintTask.enable": false,
+
+  "javascript.format.enable": true,
+  "javascript.validate.enable": true,
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.autoClosingTags": true,
+  "typescript.format.enable": true,
+  "typescript.validate.enable": true,
+  "typescript.suggest.paths": true,
+
+  "json.maxItemsComputed": 25000,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "cypress.json"
+      ],
+      "url": "https://on.cypress.io/cypress.schema.json"
+    }
+  ],
+
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "ejs",
     "javascript",
     "javascriptreact",
     "typescript",
-    "vue"
+    "typescriptreact",
+    "markdown",
+    "vue",
+    "HTML (EEx)",
+    "HTML (Eex)",
   ],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "auto-close-tag.disableOnLanguage": [],
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+  "auto-close-tag.fullMode": false,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "auto-close-tag.SublimeText3Mode": false,
+
+  "auto-rename-tag.activationOnLanguage": [
+    "xml",
+    "ejs",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "markdown",
+    "vue",
+    "HTML (EEx)",
+    "HTML (Eex)",
+  ],
+
+  "hungryDelete.enableSmartBackspace": true,
+	"hungryDelete.considerIncreaseIndentPattern": false,
+	"hungryDelete.followAbovelineIndent": false,
+	"hungryDelete.keepOneSpace": false,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
 }
