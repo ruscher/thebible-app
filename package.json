@@ -13,7 +13,8 @@
     "clean:spa": "rimraf dist/spa",
     "clean": "rimraf dist/*",
     "lint": "eslint --ext .js,.ts,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "serve": "quasar dev -m spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
