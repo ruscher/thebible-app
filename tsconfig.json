@@ -13,13 +13,19 @@
       "stores/*": ["src/stores/*"]
     }
   },
+  "typeRoots": [
+    "./node_modules/@types",
+    "./src/global/enums.d.ts",
+    "./src/global/types.d.ts",
+    "./src/global/interfaces.d.ts"
+  ],
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
-    "src/**/*.tsx",
     "src/**/*.vue",
     "src-pwa/*.d.ts",
-    "src-bex/*.d.ts",
-    "src-ssr/*.d.ts"
+    "src/global/enums.d.ts",
+    "src/global/interfaces.d.ts",
+    "src/global/types.d.ts",
   ]
 }
