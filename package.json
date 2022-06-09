@@ -6,6 +6,9 @@
   "author": "The Bible Developers",
   "private": true,
   "scripts": {
+    "build:web": "quasar build -m spa",
+    "build:desktop": "quasar build -m electron",
+    "build": "quasar build -m spa && quasar build -m electron",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
